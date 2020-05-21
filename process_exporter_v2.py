@@ -1,4 +1,7 @@
 #!/usr/bin/env python
+# This script was taken from the VMware Carbon Black public GitHub repository:
+# https://github.com/carbonblack/cbapi-python/blob/master/examples/threathunter/process_exporter.py
+# and modified by Graham Harvey
 
 import sys
 
