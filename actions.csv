@@ -1,4 +1,4 @@
-Resource,Commandtest.ps1
+Resource,Command
 DeleteFile,c:\\windows\\temp\\test.ps1
 DeleteFile,c:\\windows\\temp\\test.bat
 UploadFile,/home/gharvey/Documents/Internal/Scripts/test.ps1|c:\\windows\\temp
