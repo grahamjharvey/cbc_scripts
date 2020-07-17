@@ -1,0 +1,5 @@
+Resource,Command
+DeleteFile,c:\\windows\\temp\\dir.bat
+DeleteFile,c:\\windows\\temp\\somefile.txt
+UploadFile,/home/gharvey/dir.bat|c:\\windows\\temp
+CreateProcess,cmd.exe /c "cd %TEMP% && dir.bat"

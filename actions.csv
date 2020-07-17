@@ -1,0 +1,6 @@
+Resource,Commandtest.ps1
+DeleteFile,c:\\windows\\temp\\test.ps1
+DeleteFile,c:\\windows\\temp\\test.bat
+UploadFile,/home/gharvey/Documents/Internal/Scripts/test.ps1|c:\\windows\\temp
+UploadFile,/home/gharvey/Documents/Internal/Scripts/test.bat|c:\\windows\\temp
+CreateProcess,cmd.exe /c "ping.exe www.google.com"
