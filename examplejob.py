@@ -31,7 +31,7 @@ class GetJob(object):
         elif actionType == "GetFile":
             bin = bytearray(session.get_file(action))
             if bin:
-                readable_hash = hashlib.sha256(bin).hexdigest();
+                readable_hash = hashlib.sha256(bin).hexdigest()
                 fptr = open(readable_hash,'w+b')
                 fptr.write(bin)
                 fptr.close()
