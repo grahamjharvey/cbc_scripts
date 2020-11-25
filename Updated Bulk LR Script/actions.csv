@@ -1,0 +1,4 @@
+Resource,Command
+DeleteFile,c:\\windows\\temp\\actions.csv.registry
+CreateProcess,cmd.exe /c "ping.exe www.google.com"
+UploadFile,/home/simon/cbc_scripts-master/actions.csv.registry|c:\\windows\\temp
