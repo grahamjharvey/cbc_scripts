@@ -238,7 +238,7 @@ else {
 		Write-Host "You are using" $endpointCount "Carbon Black Cloud Endpoint licenses."
 	}
 	else {
-		Write-Host "You are not using any Endpoint licneses."
+		Write-Host "You are not using any Endpoint licenses."
 	}
 	# List the number of CPU/Core based VM Workload licenses used.
 	if ($VMWorkloadCount -ne 0) {
@@ -270,6 +270,6 @@ else {
 		Write-Host "You are using" $AWSWorkloadCount "Carbon Black Public Cloud Workload licenses."
 	}
 	else {
-		Write-Host "You are not using any Public Cloud Workload licneses."
+		Write-Host "You are not using any Public Cloud Workload licenses."
 	}
 }
